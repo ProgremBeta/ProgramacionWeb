@@ -35,6 +35,7 @@ a
 {
     text-decoration: none;
     color: black;
+    border-radius: 14px;
 }
 
 section
@@ -55,13 +56,24 @@ article
     border-radius: 15px;
 }
 
+article:hover    
+{
+    background-color: white;
+    color: #00f1dc;
+}
+
 p
 {
     color: #4b4b4b;
 }
+
 .Pie
 {
-    display: flex;
-    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
 }
-
