@@ -11,49 +11,34 @@
 		<h1 class="Titulo">My Blog</h1>
 	</header>
 
-	<nav class="Barra">
-		<ul>
-			<li ><a href="Ayuda.html" title="ayuda"> ayuda </a> </li>
-			<li ><a href="Contacto.html" title="contacto"> contacto </a> </li>
+	<nav >
+		<ul class="Barra">
+			<li class="ElementosBarra"><a href="Ayuda.html" title="ayuda"> ayuda </a> </li>
+			<li class="ElementosBarra"><a href="Contacto.html" title="contacto"> contacto </a> </li>
 		</ul>
 	</nav>
 
 	<main>
-		<section>
-			<a href="src/HistoriaIgnacio.html" class="margen">
-				<article>
-					<hgroup>	
-						<h1>Historia Ignacio</h1>
-						<p>
-							Hola soy Juan, Mucho gusto y un placer.<br>
-						</p>
-					</hgroup>
-				</article>
-			</a>
+		<section class="Principal">
+			<article class="Principal" onclick="location.href='src/HistoriaIgnacio.html'">
+					<h2>Historia Ignacio</h2>
+					<p>Hola soy Juan, Mucho gusto y un placer.</p>
+			</article>
 
-			<a href="src/HistoriaStiven.html" class="margen">
-				<article>
-					<hgroup>
-						<h1>Historia Stiven</h1>
-						<p>
-							Hola soy Stiven, mucho gusto y un placer.
-						</p>
-					</hgroup>
-				</article>
-			</a>
-
+			<article class="Principal" onclick="location.href='src/HistoriaStiven.html'">
+				<h2>Historia Stiven</h2>
+				<p>Hola soy Stiven, mucho gusto y un placer.</p>
+			</article>
 		</section>
 	</main>
 </body>
 
-<aside class="Pie">
-	 
-</aside>
-
-<footer class="Pie">
-	Derechos reservados 2024, All rights reserved.<br>Desarrolladores
-	<a href="https://github.com/ProgremBeta">🐙<br>Ignacio Betancur. 
-	<a href="https://github.com/StivenVelez2">🖤<br>Stiven Velez.
+<footer>
+	<div class="Pie">
+		Derechos reservados 2024, All rights reserved <br>
+		Ignacio Betancur<a href="https://github.com/ProgremBeta">🐙</a><br>
+		Stiven Velez<a href="https://github.com/StivenVelez2">🖤</a>
+	</div>
 </footer>
 
 </html>

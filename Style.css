@@ -1,38 +1,37 @@
-body
-{
+html{
     background: linear-gradient(to bottom, #1B3A4B, #D67D3E, #E0E0E0, #1B3A4B);
-    background-color: cover;
-
-    display: grid;
-    place-items: center;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 100%;
 }
 
 header
 {
     text-align: center;
-    color: #FFE4E1;
-    width: 40%;
-    height: 60px;
+}
+
+h1
+{
+    margin-top: 25px;
+    color: #F5F5F5;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    margin: 40px 30px 60px 0px;
 }
 
 .Barra
 {
     display: flex;
-    justify-content: center;
-}
-
-ul
-{
-    display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
 }
 
-li
+li.ElementosBarra
 {
     list-style: none;
-    margin-inline: 10px;
+    margin-inline: 5px;
     border-radius: 50px;
     padding: 0px 10px 0px 10px;
     background-color: #8FBC8F;
@@ -41,7 +40,6 @@ li
 li:hover
 {
     background-color: rgba(0, 0, 0, 0.3);
-    color: #00f1dc;
 }
 
 a
@@ -50,61 +48,34 @@ a
     color: black;    
 }
 
-.margen
-{
-    margin-bottom: 60px;
-}
-
-section
+section.Principal
 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-article
+article.Principal
 {
     max-width: 20%;
     min-width: 500px ;
-    height: auto;
+    height: 150px;
     text-align: center;
     background-color: #413535;
     padding: 10px;
     border-radius: 15px;
+    margin: 0 0 20px 0;
 }
 
 article:hover    
 {
+    transform: scale(1.05);
     background-color: rgba(0, 0, 0, 0.3);
-    color: #00f1dc;
 }
 
-h1
+h2
 {
     color: #696969;
-}
-
-h1.Titulo
-{
-    color: #F5F5F5;
-}
-
-.texto
-{
-    font-family: serif;
-    font-size: 19px;
-    color: white;
-    text-align: left;
-    margin-top: 30px;
-}
-
-.Ayuda
-{
-    min-width: 650px;
-    width:70%;
-    background-color: #413535;
-    border-radius: 10px;
-    padding: 10px 50px 50px 50px;
 }
 
 p
@@ -112,10 +83,26 @@ p
     color: #FFFAFA;
 }
 
+.Ayuda
+{
+    min-width: 450px;
+    width:60%;
+    background-color: #413535;
+    border-radius: 10px;
+    padding: 10px 50px 20px 10px;
+    color: #d1caca;
+    font-size: 18px;
+}
+
+
 footer
 {
     display: flex;
     justify-content: center;
+}
+
+.Pie
+{
     position: fixed;
     bottom: 0;
     font-family: Arial, sans-serif;
@@ -124,4 +111,8 @@ footer
     text-align: center;
     padding: 10px;
     background-color: #f8f8f8;
+}
+
+Historias{
+    display: flexbox;
 }
