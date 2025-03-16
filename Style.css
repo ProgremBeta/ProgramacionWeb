@@ -118,6 +118,9 @@ footer
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .CuadroInformacionPrincipal
@@ -126,20 +129,10 @@ footer
     max-width: 1350px;
     height: auto;
     background-color: #413535;
-    margin: 0px 0px 0px 25px;
+    margin: 0px 25px 0px 25px;
     border-radius: 20px;
     padding: 10px 30px 10px 50px;
     font-size: 25px;
-}
-
-.CuadroInformacionSegundaria
-{
-    min-width: 300px;
-    height: 350px;
-    background-color: #413535;
-    margin: 0px 10px 0px 0px;
-    border-radius: 20px;
-    padding: 10px 10px 10px 10px;
 }
 
 h3
@@ -151,4 +144,26 @@ h3
 section
 {
     margin-bottom: 70px;
+}
+
+img
+{
+    border-radius: 10px;
+}
+
+.ImagenesIgnacio
+{
+    width: 40%;
+}
+
+img:hover
+{
+    transform: scale(1.1);
+}
+
+.ImagenesCentradas
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
