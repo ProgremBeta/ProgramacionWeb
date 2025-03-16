@@ -75,6 +75,7 @@ article:hover
 
 h2
 {
+    text-align: center;
     color: #696969;
 }
 
@@ -113,6 +114,41 @@ footer
     background-color: #f8f8f8;
 }
 
-Historias{
-    display: flexbox;
+.DiseñoBlog
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.CuadroInformacionPrincipal
+{
+    min-width: 300px;
+    max-width: 1350px;
+    height: auto;
+    background-color: #413535;
+    margin: 0px 0px 0px 25px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 50px;
+    font-size: 25px;
+}
+
+.CuadroInformacionSegundaria
+{
+    min-width: 300px;
+    height: 350px;
+    background-color: #413535;
+    margin: 0px 10px 0px 0px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+h3
+{
+    text-align: center;
+    color: #696969;
+}
+
+section
+{
+    margin-bottom: 70px;
 }
