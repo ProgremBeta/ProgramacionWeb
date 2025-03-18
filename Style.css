@@ -1,20 +1,24 @@
+/*Estilos generales de la página*/
 html{
-    background: linear-gradient(to bottom, #1B3A4B, #D67D3E, #E0E0E0, #1B3A4B);
-    background-attachment: fixed;
-    height: 100%;
+    background: linear-gradient(to bottom, #1B3A4B, #D67D3E, #E0E0E0, #1B3A4B);/*Degradado de colores*/
+    background-attachment: fixed;/*Fijar el fondo*/
+    height: 100%;/*Altura de la página*/
 }
 
+/*Estilos de los elementos de la página*/
 header
 {
     text-align: center;
 }
 
+/*Estilos del encabezado*/
 h1
 {
     margin-top: 25px;
     color: #F5F5F5;
 }
 
+/*Estilos de la barra de navegación*/
 nav
 {
     display: flex;
@@ -22,32 +26,37 @@ nav
     margin: 40px 30px 60px 0px;
 }
 
+/*Estilos de la lista de la barra de navegación*/
 .Barra
 {
     display: flex;
     flex-direction: row;
 }
 
+/*Estilos de los elementos de la barra de navegación*/
 li.ElementosBarra
 {
-    list-style: none;
+    list-style: none;/*Quitar viñetas*/
     margin-inline: 5px;
     border-radius: 50px;
     padding: 0px 10px 0px 10px;
     background-color: #8FBC8F;
 }
 
+/*Estilos de los elementos de la barra de navegación al pasar el ratón por encima*/
 li:hover
 {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/*Estilos de los enlaces de la barra de navegación*/
 a
 {
-    text-decoration: none;
+    text-decoration: none;/*Quitar subrayado*/
     color: black;    
 }
 
+/*Estilos de los enlaces de la barra de navegación al pasar el ratón por encima*/
 section.Principal
 {
     display: flex;
@@ -55,6 +64,7 @@ section.Principal
     align-items: center;
 }
 
+/*Estilos de los artículos*/
 article.Principal
 {
     max-width: 20%;
@@ -67,23 +77,27 @@ article.Principal
     margin: 0 0 20px 0;
 }
 
+/*Estilos de los artículos al pasar el ratón por encima*/
 article:hover    
 {
-    transform: scale(1.05);
+    transform: scale(1.05); /*Aumentar el tamaño del artículo*/
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/*Estilos de los títulos de los artículos*/
 h2
 {
     text-align: center;
     color: #696969;
 }
 
+/*Estilos de los párrafos de los artículos*/
 p
 {
     color: #FFFAFA;
 }
 
+/*Estilos de los botones*/
 .Ayuda
 {
     min-width: 450px;
@@ -95,16 +109,17 @@ p
     font-size: 18px;
 }
 
-
+/*Estilos de los botones al pasar el ratón por encima*/
 footer
 {
     display: flex;
     justify-content: center;
 }
 
+/*Estilos del pie de página*/
 .Pie
 {
-    position: fixed;
+    position: fixed;/*Fijar el pie de página*/
     bottom: 0;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -114,15 +129,17 @@ footer
     background-color: #f8f8f8;
 }
 
+/*Estilos de la sección de información principal*/
 .DiseñoBlog
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 30px;/*Espacio entre los elementos*/
 }
 
+/*Estilos de los cuadros de información principal*/
 .CuadroInformacionPrincipal
 {
     min-width: 300px;
@@ -135,32 +152,38 @@ footer
     font-size: 25px;
 }
 
+/*Estilos de los títulos de los cuadros de información principal*/
 h3
 {
     text-align: center;
     color: #696969;
 }
 
+/*Estilos de los párrafos de los cuadros de información principal*/
 section
 {
     margin-bottom: 70px;
 }
 
+/*Estilos de las imágenes*/
 img
 {
     border-radius: 10px;
 }
 
+/*Estilos de las imágenes de Ignacio*/
 .ImagenesIgnacio
 {
     width: 40%;
 }
 
+/*Estilos de las imágenes de Ignacio al pasar el ratón por encima*/
 img:hover
 {
     transform: scale(1.1);
 }
 
+/*Estilos de las imágenes centradas*/
 .ImagenesCentradas
 {
     display: flex;
